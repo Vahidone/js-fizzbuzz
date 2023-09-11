@@ -2,8 +2,9 @@
 // prendiamo la classe del contenitore dei box 
 const boxContainer = document.querySelector('.box-container');
 // aggiungiamo il titolo 
-boxContainer.innerHTML += ` <h1>FizzBuzzDOM</h1>`;
-
+const titolo = document.createElement('h1');
+titolo.append('FizzBuzzDOM');
+boxContainer.append(titolo);
 
 // usiamo il ciclo For 
 for (let i = 1; i <= 100; i++){
@@ -11,6 +12,8 @@ for (let i = 1; i <= 100; i++){
     const box = document.createElement('div');
     // diamo una classe ai nostri box 
     box.classList.add('box');
+   
+
   
     // usare "if" per creare condizioni
     if ((!(i % 3)) && (!(i % 5))) {
@@ -28,4 +31,6 @@ for (let i = 1; i <= 100; i++){
     }
 
   boxContainer.append(box);
+ 
 }
+
