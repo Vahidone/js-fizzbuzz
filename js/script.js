@@ -3,8 +3,9 @@
 const boxContainer = document.querySelector('.box-container');
 // aggiungiamo il titolo 
 const titolo = document.createElement('h1');
-titolo.append('FizzBuzzDOM');
+titolo.textContent = 'FizzBuzzDOM';
 boxContainer.append(titolo);
+
 
 // usiamo il ciclo "for" per eseguire ripetizione dei box 
 for (let i = 1; i <= 100; i++){
@@ -17,20 +18,21 @@ for (let i = 1; i <= 100; i++){
   
     // usare "if" per creare condizioni richieste
     if ((!(i % 3)) && (!(i % 5))) {
-      box.append('FizzBuzz')
+      box.textContent = 'FizzBuzz';
       box.classList.add('box-fizzbuzz');
     } else if (!(i % 3)) {
-      box.append('Fizz');
+      box.textContent = 'Fizz';
       box.classList.add('box-fizz'); 
     } else if (!(i % 5)) {
-      box.append('Buzz');
+      box.textContent = 'Buzz';
       box.classList.add('box-buzz');
     }
     else {
       box.append(i);
     }
 
-  boxContainer.append(box);
+    boxContainer.append(box);
+  
  
 }
 
