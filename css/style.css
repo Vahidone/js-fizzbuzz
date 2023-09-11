@@ -32,17 +32,17 @@ h1 {
   color: #c2c2c2;
   font-size: 20px;
 }
-.box.fizz {
+.box-fizz {
   background-color: #08D6A0;
   color: black;
 }
 
-.box.buzz {
+.box-buzz {
   background-color: #FFD166;
   color: black;
 }
 
-.box.fizzbuzz {
+.box-fizzbuzz {
   background-color: #6ee208;
   color: black;
 }
