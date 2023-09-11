@@ -27,8 +27,8 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5px;
-  background-color: #128b6d;
+  margin: 25px;
+  background-color: #1389B2;
   color: #c2c2c2;
   font-size: 20px;
 }
@@ -43,6 +43,6 @@ h1 {
 }
 
 .box-fizzbuzz {
-  background-color: #6ee208;
+  background-color: #F0466F;
   color: black;
 }
