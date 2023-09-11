@@ -21,16 +21,16 @@ h1 {
   background-color: #093B4B;
 }
 .box {
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
   color: black;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 25px;
+  margin: 15px;
   background-color: #1389B2;
-  color: #c2c2c2;
-  font-size: 20px;
+  color: black;
+  font-size: 25px;
 }
 .box-fizz {
   background-color: #08D6A0;
