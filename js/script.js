@@ -6,7 +6,7 @@ const titolo = document.createElement('h1');
 titolo.append('FizzBuzzDOM');
 boxContainer.append(titolo);
 
-// usiamo il ciclo For 
+// usiamo il ciclo "for" per eseguire ripetizione dei box 
 for (let i = 1; i <= 100; i++){
     // creiamo il div per i box 
     const box = document.createElement('div');
@@ -15,7 +15,7 @@ for (let i = 1; i <= 100; i++){
    
 
   
-    // usare "if" per creare condizioni
+    // usare "if" per creare condizioni richieste
     if ((!(i % 3)) && (!(i % 5))) {
       box.append('FizzBuzz')
       box.classList.add('box-fizzbuzz');
